@@ -1,0 +1,113 @@
+section.courses {
+   margin-block: 2rem 5rem;
+}
+
+.grid {
+   display: grid;
+}
+
+.courses > .grid {
+   grid-template-columns: repeat(1, 1fr);
+   grid-gap: $spacer;
+
+   @include medium-up {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+   }
+
+   @include large-up {
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
+
+.course.grid {
+   grid-template-areas:
+      "level rating"
+      "name name"
+      "author author"
+      ". ."
+      ". ."
+      "price button";
+
+   grid-template-rows: min-content 10fr min-content $fs-card-price * $lh-card-price + 0.25rem;
+
+   min-height: 27.5rem;
+
+   @include medium-up {
+      grid-template-areas:
+         "level rating"
+         "name name"
+         "author author"
+         "desc desc"
+         "sale button"
+         "price button";
+
+      grid-template-rows: min-content 10fr min-content min-content min-content $fs-card-price * $lh-card-price + 0.25rem;
+
+      min-height: 30rem;
+   }
+}
+
+.course {
+   padding: 2rem;
+   border-radius: 2.5rem;
+   &__name {
+      grid-area: name;
+      margin-bottom: 1rem;
+      margin-top: auto;
+   }
+
+   &__level {
+      grid-area: level;
+   }
+
+   &__rating {
+      grid-area: rating;
+      margin-block: auto;
+      margin-left: auto;
+
+      &::after {
+         content: url(/img/full-star.svg);
+         margin-left: 0.5rem;
+         vertical-align: middle;
+         display: inline;
+         @include medium-up {
+            content: url(/img/half-star.svg);
+            margin-left: 0;
+         }
+      }
+   }
+
+   &__author {
+      grid-area: author;
+   }
+
+   &__description {
+      grid-area: desc;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      @include small {
+         display: none;
+      }
+   }
+
+   &__sale {
+      grid-area: sale;
+      margin-top: auto;
+      @include small {
+         display: none;
+      }
+   }
+
+   &__price {
+      grid-area: price;
+      margin-top: auto;
+      margin-bottom: 0.25rem;
+   }
+
+   &__button {
+      grid-area: button;
+      margin-left: auto;
+      margin-top: auto;
+   }
+}

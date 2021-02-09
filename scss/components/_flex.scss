@@ -1,0 +1,52 @@
+.flex {
+   display: flex;
+   justify-content: space-between;
+}
+
+@include medium-up {
+   .flex {
+      flex-direction: row;
+   }
+
+   .flex > * {
+      flex-basis: 100%;
+   }
+
+   .flex > * + * {
+      margin: 0 0 0 $spacer;
+   }
+}
+
+@media (max-width: 48.375rem) {
+   .flex {
+      flex-direction: column;
+   }
+
+   .flex > * + * {
+      margin: $spacer * 2 0 0 0;
+   }
+}
+
+.row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+   & > * + * {
+      margin: 0 0 0 $spacer;
+   }
+}
+
+.row > * {
+   flex-basis: 100%;
+}
+
+.column {
+   display: flex;
+   flex-direction: column;
+}
+
+.column > * + * {
+   margin: $spacer / 2 0 0 0;
+}

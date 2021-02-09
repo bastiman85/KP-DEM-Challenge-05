@@ -1,0 +1,64 @@
+body {
+   font-family: $ff-base;
+}
+
+h1,
+h2,
+h3 {
+   color: $clr-dark;
+}
+
+p {
+   color: $clr-medium-dark;
+}
+
+.course {
+   &__name {
+      font-size: $fs-card-title;
+      font-weight: $fw-card-title;
+      line-height: $lh-card-title;
+   }
+
+   &__level {
+      font-size: $fs-card-level;
+      font-weight: $fw-card-level;
+      line-height: $lh-card-level;
+   }
+
+   &__rating {
+      font-size: $fs-card-rating;
+      font-weight: $fw-card-rating;
+      line-height: $lh-card-rating;
+   }
+
+   &__author {
+      font-size: $fs-card-author;
+      font-weight: $fw-card-author;
+      line-height: $lh-card-author;
+   }
+
+   &__description {
+      font-size: $fs-card-desc;
+      font-weight: $fw-card-desc;
+      line-height: $lh-card-desc;
+   }
+
+   &__sale {
+      font-size: $fs-card-sale;
+      font-weight: $fw-card-sale;
+      line-height: $lh-card-sale;
+      color: $clr-primary;
+   }
+
+   &__price {
+      font-size: $fs-card-price;
+      font-weight: $fw-card-price;
+      line-height: $lh-card-price;
+   }
+
+   &__button {
+      font-size: $fs-btn-large;
+      font-weight: $fw-btn-large;
+      line-height: $lh-btn-large;
+   }
+}

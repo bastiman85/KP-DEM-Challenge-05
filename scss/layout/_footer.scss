@@ -1,0 +1,88 @@
+/* ** FOOTER ** */
+.footer {
+   &__logo {
+      height: 20px;
+      margin-block: auto;
+      background-image: url(/img/logo-large.svg);
+      background-repeat: no-repeat;
+      min-width: 115px;
+
+      // @include small {
+      //    flex-basis: 150px;
+      // }
+   }
+
+   hr {
+      height: 4px;
+      color: $clr-light;
+      border-width: 0;
+      background-color: $clr-light;
+      margin-bottom: 2.1875rem;
+   }
+
+   &__links a {
+      text-decoration: none;
+      color: $clr-dark;
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.25;
+      &:hover,
+      &:focus {
+         text-decoration: underline;
+      }
+   }
+
+   & > .flex > * {
+      margin-block: 2.5rem;
+      white-space: nowrap;
+   }
+
+   &__social.row {
+      justify-content: flex-start;
+      min-width: 135px;
+
+      @include medium-up {
+         justify-content: flex-end;
+      }
+   }
+   &__social.row > * {
+      flex-basis: unset;
+   }
+
+   &__social img {
+      @include small {
+         width: 44px;
+      }
+   }
+
+   .credit {
+      margin-top: 2.5rem;
+      font-weight: 300;
+      @include medium-up {
+         margin-top: 1.875rem;
+      }
+
+      a {
+         font-weight: 600;
+         color: $clr-primary;
+         text-decoration: none;
+         &:hover,
+         &:focus {
+            text-decoration: underline;
+         }
+      }
+   }
+
+   .credit .flex {
+      justify-content: flex-start;
+   }
+
+   .credit .flex > * {
+      margin-block: 1.5rem;
+      flex-basis: 40%;
+
+      @include small {
+         margin-block: 0.75rem;
+      }
+   }
+}

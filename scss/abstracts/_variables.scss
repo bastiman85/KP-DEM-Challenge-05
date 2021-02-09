@@ -1,0 +1,63 @@
+/* ** VARIABLES ** */
+$clr-light: #f5f7fa; //(search bar, card bg)
+$clr-medium: #737b8c; //(placeholder, light text)
+$clr-medium-dark: #434956; //(paragraph text)
+$clr-dark: #020203; //(most text)
+
+$clr-primary: #0469dc; //(blue elements)
+$clr-secondary: #5858da; //(purple)
+
+$ff-base: "Poppins", sans-serif;
+$ff-serif: "IBM Plex Serif", serif;
+
+$fs-title: 3.375rem;
+@media (min-width: 48.375rem) {
+   $fs-title: 4.25rem;
+}
+@media (min-width: 75rem) {
+   $fs-title: 6rem;
+}
+
+$fs-nav: 0.8125rem;
+$fs-p: 1.0625rem;
+$fs-btn-small: 0.8125rem;
+$fs-btn-large: 1.25rem;
+$fs-card-level: 0.75rem;
+$fs-card-title: 2.125rem;
+$fs-card-author: 0.75rem;
+$fs-card-desc: 1rem;
+$fs-card-rating: 1rem;
+$fs-card-sale: 0.75rem;
+$fs-card-price: 1.25rem;
+$fs-welcome-title: 2.125rem;
+$fs-become-title: 3.375rem;
+
+$lh-nav: 1.23;
+$lh-p: 1.65;
+$lh-btn-small: 1.23;
+$lh-btn-large: 1.2;
+$lh-card-level: 1.2;
+$lh-card-title: 1.18;
+$lh-card-author: 1.33;
+$lh-card-desc: 1.25;
+$lh-card-rating: 1.25;
+$lh-card-sale: 1.33;
+$lh-card-price: 1.2;
+$lh-welcome-title: 1.18;
+$lh-become-title: 1.19;
+
+$fw-nav: 400;
+$fw-p: 400;
+$fw-btn-small: 600;
+$fw-btn-large: 500;
+$fw-card-level: 400;
+$fw-card-title: 700;
+$fw-card-author: 400;
+$fw-card-desc: 300;
+$fw-card-rating: 300;
+$fw-card-sale: 400;
+$fw-card-price: 400;
+$fw-welcome-title: 300;
+$fw-become-title: 300;
+
+$spacer: 1.5rem;

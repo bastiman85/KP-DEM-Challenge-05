@@ -1,0 +1,109 @@
+/* ** GENERAL STYLING ** */
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   background-color: var(--bg-color);
+   color: var(--font-color);
+}
+
+h1 {
+   color: var(--secondary-color);
+}
+
+a[class] {
+   color: $clr-primary;
+}
+
+i.star {
+   content: "";
+   height: 23px;
+   width: 1rem;
+   background-image: url(/img/full-star.svg);
+   background-repeat: no-repeat;
+   background-size: auto;
+   vertical-align: middle;
+   display: inline-block;
+   background-position: top 1px center;
+   &:first-of-type {
+      margin-left: 0.5rem;
+   }
+
+   @include small {
+      display: none;
+   }
+}
+
+img {
+   border-radius: 2.5rem;
+}
+
+.hero__img-box,
+.welcome__img,
+.become__img {
+   position: relative;
+   // width: max-content;
+
+   .fg {
+      position: relative;
+      z-index: 2;
+   }
+
+   .bg {
+      position: absolute;
+      top: 30px;
+      right: 0;
+      filter: blur(40px);
+   }
+}
+
+.hero__img-box .bg,
+.become__img .bg {
+   transform: scale(0.9, 1.05);
+}
+
+.welcome__img .bg {
+   transform: scale(0.8, 1.05);
+}
+
+.bg-dark {
+   background-color: $clr-light;
+}
+
+.course.show {
+   transform: scale(1);
+   transform-origin: top left;
+   display: grid;
+   min-height: 30rem;
+}
+
+.course.show:not(.nocourses) {
+   animation-name: showCourse;
+   animation-duration: 250ms;
+   animation-direction: normal;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: both;
+}
+
+.nocourses,
+.course.hide {
+   transform: scale(0);
+   display: none;
+   min-height: 0 !important;
+}
+
+@keyframes showCourse {
+   0% {
+      display: none;
+      min-height: 0;
+      transform: scale(0);
+   }
+   99% {
+      transform: scale(1);
+      min-height: 30rem;
+   }
+   100% {
+      display: grid;
+   }
+}

@@ -1,0 +1,85 @@
+.btn {
+   cursor: pointer;
+   display: inline-block;
+   text-decoration: none;
+   border-radius: 100vw;
+
+   &-small {
+      font-size: $fs-btn-small;
+      font-weight: $fw-btn-small;
+      line-height: $lh-btn-small;
+      padding: 0.615em 1.23em;
+   }
+
+   &-large {
+      font-size: $fs-btn-large;
+      font-weight: $fw-btn-large;
+      line-height: $lh-btn-large;
+      padding: 0.5em 1.2em;
+   }
+
+   &:active {
+      box-shadow: inset 0px 10px 38px -10px rgba(0, 0, 0, 0.5);
+   }
+}
+
+.course__level {
+   background-color: $clr-primary;
+   color: white;
+   font-weight: normal;
+   width: min-content;
+
+   &:hover,
+   &:focus {
+      background-color: lighten($clr-primary, 10%);
+   }
+
+   &-secondary {
+      background-color: $clr-secondary;
+   }
+}
+
+a.btn-primary {
+   background-color: $clr-primary;
+   color: white;
+
+   &:hover,
+   &:focus {
+      background-color: lighten($clr-primary, 10%);
+   }
+}
+
+a.btn-secondary {
+   color: $clr-primary;
+   margin-inline: 1rem;
+
+   @media (max-width: 53em) {
+      margin-inline: 0;
+   }
+}
+
+a.course__button {
+   background-color: #05090f;
+   color: white;
+   font-weight: $fw-btn-large;
+
+   &:hover,
+   &:focus {
+      background-color: $clr-primary;
+   }
+}
+
+.btn-large.btn-secondary {
+   @include small {
+      padding: 0;
+      display: block;
+      margin-top: 2rem;
+   }
+}
+
+.btn-secondary {
+   &:hover,
+   &:focus {
+      background-color: darken(white, 5%);
+   }
+}
