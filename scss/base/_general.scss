@@ -3,15 +3,6 @@ html {
    scroll-behavior: smooth;
 }
 
-body {
-   background-color: var(--bg-color);
-   color: var(--font-color);
-}
-
-h1 {
-   color: var(--secondary-color);
-}
-
 a[class] {
    color: $clr-primary;
 }

@@ -1,3 +1,4 @@
+/* ** SPACING ** */
 .container {
    // width: min(90%, 75rem);
    width: 90%;
@@ -6,13 +7,5 @@
 }
 
 .flow-content > * + * {
-   margin-top: var(--flow-space, $spacer);
-}
-
-.flow-content--large {
-   --flow-space: 2rem;
-}
-
-.flow-content--x-large {
-   --flow-space: 2.5rem;
+   margin-top: $spacer;
 }

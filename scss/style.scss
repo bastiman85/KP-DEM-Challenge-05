@@ -1,15 +1,34 @@
+/* ** TABLE OF CONTENT ** */
+/* ********************** */
+/* ** FONTS            ** */
+/* ** RESETS           ** */
+/* ** TYPOGRAPHY       ** */
+/* ** GENERAL STYLING  ** */
+/* ** DIEXPLORER       ** */
+/* ** ACCESSIBILITY    ** */
+/* ** BUTTONS          ** */
+/* ** FLEX             ** */
+/* ** SPACING          ** */
+/* ** ALIGNMENT        ** */
+/* ** HEADER           ** */
+/* ** NAVIGATION       ** */
+/* ** FRONTPAGE        ** */
+/* ** FOOTER           ** */
+/* ** GRID             ** */
+/* ********************** */
+/**/
+
 @import "abstracts/mixins";
 @import "abstracts/variables";
 @import "abstracts/functions";
 
-@import "base/reset";
 @import "base/fonts";
+@import "base/reset";
 @import "base/typography";
 @import "base/general";
 
 @import "components/diexplorer";
 @import "components/accessibility";
-@import "components/diexplorer";
 @import "components/buttons";
 @import "components/flex";
 @import "components/spacing";
