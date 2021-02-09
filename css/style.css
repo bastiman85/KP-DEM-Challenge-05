@@ -627,7 +627,7 @@ a.course__button:hover, a.course__button:focus {
 }
 @media (max-width: 50rem) {
   .header__search form {
-    justify-content: right;
+    justify-content: flex-end;
   }
 }
 .header__search input {
