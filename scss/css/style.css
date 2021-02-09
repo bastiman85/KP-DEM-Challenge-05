@@ -585,12 +585,12 @@ a.course__button:hover, a.course__button:focus {
 .header__logo {
   height: 20px;
   margin-block: auto;
-  background-image: url(./img/logo-small.svg);
+  background-image: url(../img/logo-small.svg);
   background-repeat: no-repeat;
 }
 @media (min-width: 48.375rem) {
   .header__logo {
-    background-image: url(./img/logo-large.svg);
+    background-image: url(../img/logo-large.svg);
   }
 }
 @media (max-width: 48.375rem) {
