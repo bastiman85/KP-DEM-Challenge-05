@@ -128,7 +128,7 @@ address {
 }
 @font-face {
   font-family: Poppins;
-  src: url(".,/assets/fonts/Poppins-Light.woff") format("woff");
+  src: url("../assets/fonts/Poppins-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
@@ -234,7 +234,7 @@ i.star {
   content: "";
   height: 23px;
   width: 1rem;
-  background-image: url(/img/full-star.svg);
+  background-image: url(./img/full-star.svg);
   background-repeat: no-repeat;
   background-size: auto;
   vertical-align: middle;
@@ -585,7 +585,7 @@ a.course__button:hover, a.course__button:focus {
 .header__logo {
   height: 20px;
   margin-block: auto;
-  background-image: url(../img/logo-small.svg);
+  background-image: url(./img/logo-small.svg);
   background-repeat: no-repeat;
 }
 @media (min-width: 48.375rem) {
