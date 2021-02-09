@@ -237,7 +237,7 @@ i.star {
   content: "";
   height: 23px;
   width: 1rem;
-  background-image: url(./img/full-star.svg);
+  background-image: url(../img/full-star.svg);
   background-repeat: no-repeat;
   background-size: auto;
   vertical-align: middle;
@@ -1036,14 +1036,14 @@ section.courses {
   margin-left: auto;
 }
 .course__rating::after {
-  content: url(/img/full-star.svg);
+  content: url(../img/full-star.svg);
   margin-left: 0.5rem;
   vertical-align: middle;
   display: inline;
 }
 @media (min-width: 48.375rem) {
   .course__rating::after {
-    content: url(/img/half-star.svg);
+    content: url(../img/half-star.svg);
     margin-left: 0;
   }
 }

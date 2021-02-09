@@ -67,12 +67,12 @@ section.courses {
       margin-left: auto;
 
       &::after {
-         content: url(/img/full-star.svg);
+         content: url(../img/full-star.svg);
          margin-left: 0.5rem;
          vertical-align: middle;
          display: inline;
          @include medium-up {
-            content: url(/img/half-star.svg);
+            content: url(../img/half-star.svg);
             margin-left: 0;
          }
       }
