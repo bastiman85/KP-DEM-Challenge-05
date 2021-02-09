@@ -772,6 +772,7 @@ section:not(.courses) p {
   font-size: 1.0625rem;
   font-weight: 400;
   line-height: 1.65;
+  font-family: "IBM Plex Serif", serif;
 }
 @media (max-width: 48.375rem) {
   section:not(.courses) div {
