@@ -1,11 +1,11 @@
 @mixin small {
-   @media (max-width: 48.375rem) {
+   @media (max-width: 50rem) {
       @content;
    }
 }
 
 @mixin medium-up {
-   @media (min-width: 48.375rem) {
+   @media (min-width: 50rem) {
       @content;
    }
 }

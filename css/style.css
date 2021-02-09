@@ -242,7 +242,7 @@ i.star {
 i.star:first-of-type {
   margin-left: 0.5rem;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   i.star {
     display: none;
   }
@@ -481,7 +481,7 @@ a.course__button:hover, a.course__button:focus {
   background-color: #0469dc;
 }
 
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .btn-large.btn-secondary {
     padding: 0;
     display: block;
@@ -499,7 +499,7 @@ a.course__button:hover, a.course__button:focus {
   justify-content: space-between;
 }
 
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   .flex {
     flex-direction: row;
   }
@@ -512,7 +512,7 @@ a.course__button:hover, a.course__button:focus {
     margin: 0 0 0 1.5rem;
   }
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .flex {
     flex-direction: column;
   }
@@ -580,12 +580,12 @@ a.course__button:hover, a.course__button:focus {
   background-image: url(../img/logo-small.svg);
   background-repeat: no-repeat;
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   .header__logo {
     background-image: url(../img/logo-large.svg);
   }
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .header__logo {
     flex-basis: 150px;
   }
@@ -596,7 +596,7 @@ a.course__button:hover, a.course__button:focus {
   margin-bottom: auto;
   white-space: nowrap;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .header__buttons {
     flex-basis: 0;
     margin-left: 0.5em;
@@ -605,7 +605,7 @@ a.course__button:hover, a.course__button:focus {
 .header__buttons > * {
   display: inline-block;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .header .btn-secondary {
     display: none;
   }
@@ -616,7 +616,7 @@ a.course__button:hover, a.course__button:focus {
   padding: 0.625em 0 0.625em 1.5em;
   border-radius: 100vw;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .header__search {
     background-color: transparent;
   }
@@ -625,7 +625,7 @@ a.course__button:hover, a.course__button:focus {
   display: flex;
   align-items: center;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .header__search form {
     justify-content: right;
   }
@@ -635,7 +635,7 @@ a.course__button:hover, a.course__button:focus {
   background-color: #f5f7fa;
   padding: 0;
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   .header__search input {
     width: 17rem;
   }
@@ -667,7 +667,7 @@ a.course__button:hover, a.course__button:focus {
      object-fit: cover;
   max-height: 100vh;
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   .header .hero img {
     max-height: 55vh;
   }
@@ -684,7 +684,7 @@ a.course__button:hover, a.course__button:focus {
   margin-top: 2.5rem;
   margin-bottom: 3.5rem;
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   .header .hero__title {
     font-size: 4.25rem;
   }
@@ -734,7 +734,7 @@ a.course__button:hover, a.course__button:focus {
   text-decoration: none;
   cursor: pointer;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .header nav .subscribe {
     display: none;
   }
@@ -761,7 +761,7 @@ section:not(.courses) {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   section:not(.courses) {
     padding-top: unset;
   }
@@ -773,7 +773,7 @@ section:not(.courses) p {
   line-height: 1.65;
   font-family: "IBM Plex Serif", serif;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   section:not(.courses) div {
     margin-top: 2rem;
   }
@@ -801,19 +801,19 @@ section.welcome img {
      object-fit: cover;
   margin-left: auto;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   section.welcome img {
     width: 90vw;
     height: 90vw;
   }
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   section.welcome .welcome__img {
     order: -1;
   }
 }
 
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   section.become p {
     margin-right: 4vw;
   }
@@ -834,13 +834,13 @@ section.become img {
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   section.become img {
     width: 100%;
     height: 100%;
   }
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   section.become .become__img {
     margin-right: 5rem;
   }
@@ -881,7 +881,7 @@ section.become img {
   justify-content: flex-start;
   min-width: 135px;
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   .footer__social.row {
     justify-content: flex-end;
   }
@@ -889,7 +889,7 @@ section.become img {
 .footer__social.row > * {
   flex-basis: unset;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .footer__social img {
     width: 44px;
   }
@@ -898,7 +898,7 @@ section.become img {
   margin-top: 2.5rem;
   font-weight: 300;
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   .footer .credit {
     margin-top: 1.875rem;
   }
@@ -919,7 +919,7 @@ section.become img {
   margin-bottom: 1.5rem;
   flex-basis: 40%;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .footer .credit .flex > * {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
@@ -942,7 +942,7 @@ section.courses {
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 1.5rem;
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   .courses > .grid {
     -ms-grid-columns: 1fr 2rem 1fr;
     grid-template-columns: repeat(2, 1fr);
@@ -963,7 +963,7 @@ section.courses {
   grid-template-rows: min-content 10fr min-content 1.75rem;
   min-height: 27.5rem;
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   .course.grid {
         grid-template-areas: "level rating" "name name" "author author" "desc desc" "sale button" "price button";
     -ms-grid-rows: min-content 10fr min-content min-content min-content 1.75rem;
@@ -1004,7 +1004,7 @@ section.courses {
   vertical-align: middle;
   display: inline;
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   .course__rating::after {
     content: url(../img/half-star.svg);
     margin-left: 0;
@@ -1021,7 +1021,7 @@ section.courses {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .course__description {
     display: none;
   }
@@ -1030,7 +1030,7 @@ section.courses {
   grid-area: sale;
   margin-top: auto;
 }
-@media (max-width: 48.375rem) {
+@media (max-width: 50rem) {
   .course__sale {
     display: none;
   }
@@ -1049,7 +1049,7 @@ section.courses {
   margin-left: auto;
   margin-top: auto;
 }
-@media (min-width: 48.375rem) {
+@media (min-width: 50rem) {
   .course__name {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
